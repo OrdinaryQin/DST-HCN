@@ -1,6 +1,6 @@
-## Architecture of DST-HCN
+# Architecture of Dynamic Spatial-temporal Hypergraph Convolutional Network for Skeleton-based Action Recognition
 
-# Prerequisites
+## Prerequisites
 
 - Python = 3.8.8
 - PyTorch = 1.10.0
@@ -13,17 +13,17 @@
 - NTU RGB+D 120 Skeleton
 - NW-UCLA
 
-# NTU RGB+D 60 and 120 and NW-UCLA
+## NTU RGB+D 60 and 120 and NW-UCLA
 
 1.Download the raw data from the website and place it in the appropriate directory of the './data' file
 2.Generate NTU RGB+D 60 and NTU RGB+D 120 dataset:  python get_raw_skes_data.py,  python get_raw_denoised_data.py,  python seq_transformation.py
 3. Place the processed data file into the data_path parameter inside the './config'
 
-# Training & Testing
+## Training & Testing
 
 ### Training
 
-# Example: training  DST-HCN on NTU RGB+D 120 cross subject, the training setup parameters for the other datasets are set under the './config' file 
+#### Example: training  DST-HCN on NTU RGB+D 120 cross subject, the training setup parameters for the other datasets are set under the './config' file 
 python mainfucos.py --config config/nturgbd120-cross-set/default.yaml --work-dir "/mnt/data/demo" --device 1 2 --num-epoch 90
 
 ### Testing
@@ -38,3 +38,17 @@ python zhenghe.py
 ### Pretrained Models
 
 We provide individual stream weighting files for the relevant dataset
+
+# Citation
+## NOTE：Our work and acceptance by ICME 2023 Oral
+Please cite this work if you find it useful:
+
+
+
+@article{wang2023dynamic,
+  title={Dynamic Spatial-temporal Hypergraph Convolutional Network for Skeleton-based Action Recognition},
+  author={Wang, Shengqin and Zhang, Yongji and Qi, Hong and Zhao, Minghao and Jiang, Yu},
+  journal={arXiv preprint arXiv:2302.08689},
+  year={2023}
+}
+
