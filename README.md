@@ -44,11 +44,14 @@ We provide individual stream weighting files for the relevant dataset
 Please cite this work if you find it useful:
 
 
-
-@article{wang2023dynamic,
-  title={Dynamic Spatial-temporal Hypergraph Convolutional Network for Skeleton-based Action Recognition},
+@INPROCEEDINGS{10220028,
   author={Wang, Shengqin and Zhang, Yongji and Qi, Hong and Zhao, Minghao and Jiang, Yu},
-  journal={arXiv preprint arXiv:2302.08689},
-  year={2023}
-}
+  booktitle={2023 IEEE International Conference on Multimedia and Expo (ICME)}, 
+  title={Dynamic Spatial-temporal Hypergraph Convolutional Network for Skeleton-based Action Recognition}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={2147-2152},
+  doi={10.1109/ICME55011.2023.00367}}
+
 
